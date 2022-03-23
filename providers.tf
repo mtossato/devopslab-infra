@@ -11,14 +11,14 @@ terraform {
 provider "google" {
 
   project = "lab-devops-cloud-tossato"
-  region  = "us-west1"
-  zone    = "us-west1-b"
+  region  = "us-central1"
+  zone    = "us-central1-a"
 }
 
 provider "google-beta" {
 
   project = "lab-devops-cloud-tossato"
-  region  = "us-west1"
-  zone    = "us-west1-b"
+  region  = "us-central1"
+  zone    = "us-central1-a"
 }
 
