@@ -4,7 +4,7 @@ terraform {
       source = "hashicorp/google"
       version = "4.12.0"
     }
-  }
+  } 
 }
 
 # Configura o Provider Google Cloud com o Projeto
