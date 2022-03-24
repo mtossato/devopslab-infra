@@ -1,4 +1,4 @@
-resource "google_app_engine_application" "app" {
+resource "google_app_engine_application" "app_west" {
   project     = "lab-devops-cloud-tossato"
   location_id = "us-west1"
 }
